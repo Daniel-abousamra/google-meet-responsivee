@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #202124;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-blue {
+    color: #1a73e8;
+}
+
+.text-green {
+    color: #188038;
+}
+
+
+.header {
+    background-color: #edf3f9;
+    border-bottom: 1px solid #dfe3e7;
+    width: 100%;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    font-size: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+}
+
+.nav-buttons a {
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.btn-outline {
+    border: 1px solid #999;
+    color: #333;
+    background: #fff;
+}
+
+.btn-primary {
+    background: #1a73e8;
+    color: #fff;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+h1 {
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0 0 16px;
+}
+
+h2 {
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0 0 16px;
+}
+
+.text1 {
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-img {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero-buttons a {
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn-outline-hero {
+    border: 1px solid #999;
+    color: #333;
+    background: #fff;
+}
+
+.btn-primary-hero {
+    background: #1a73e8;
+    color: white;
+}
+
+.section-wrapper {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+.titre2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.principales {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    max-width: 280px;
+}
+
+.card h4 {
+    margin: 12px 0 8px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.google-meet,
+.appareil {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.section-text p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.titre3,
+.titre4 {
+    letter-spacing: 3px;
+}
+
+
+
+.footer {
+    background: #f1f3f4; 
+    padding: 40px 20px 20px;
+    border-top: 1px solid #dfe3e7;
+    margin-top: 60px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1 1 220px;
+    min-width: 200px;
+}
+
+.footer-col h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1a73e8;
+}
+
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.footer-col a {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-col a:hover {
+    color: #1a73e8;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .header-content {
+        padding-inline: 16px;
+        flex-wrap: wrap;
+    }
+
+    .hero,
+    .google-meet,
+    .appareil {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .hero-img,
+    .section-img {
+        order: 2;
+    }
+
+    .hero-text,
+    .section-text {
+        order: 1;
+    }
+
+    .section-wrapper {
+        padding-inline: 16px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .header-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .header-left {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    .nav-buttons {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .hero {
+        margin-top: 24px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .principales {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .google-meet,
+    .appareil {
+        margin: 40px auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-col {
+        margin-bottom: 20px;
+    }
+}
